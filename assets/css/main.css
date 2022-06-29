@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+header img {
+    margin-bottom: 40px;
+    width: auto;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 3rem;
+    line-height: 70px;
+    margin-bottom: 20px;
+  }
+
+h1 span {
+    color: #FF9900;
+    font-weight: bold;
+}
+
+.information {
+    margin-bottom: 10px;
+}
+
+.information p{
+    margin-bottom: 30px;
+}
+
+p,footer {
+    color: #7D7987;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+span,a {
+    color: #FF9900;
+}
+
+.line {
+    display: block;
+    height: 0.7px;
+    width: 100%;
+    background-color: rgb(163, 159, 159);
+    margin-bottom: 10px;
+}
+
+footer a{
+    margin: 0 20px 0 0;
+    list-style: none;
+    text-decoration: none;
+}
